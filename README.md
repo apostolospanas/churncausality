@@ -1,6 +1,24 @@
 # churncausality
 
-A data science and causal inference project focused on churn prediction in game user behaviour. This repository provides an end-to-end pipeline including synthetic data generation, causal graph discovery with DoWhy, leakage-aware machine learning (ML) modelling, and comprehensive evaluation of churn prediction models.
+ChurnCausality is a research-grade pipeline for causal and predictive analysis of player churn in freemium game environments. It combines synthetic behaviour simulation, DoWhy-based causal inference, counterfactual reasoning, and leakage-aware ML modelling to explore how in-game engagement and monetisation behaviours affect retention outcomes.
+
+Key components include:
+
+Engineered player telemetry across 100,000 users over 12 months.
+
+Realistic churn probabilities based on engagement scores.
+
+Causal graph discovery and adjustment for confounding (booster usage → churn).
+
+Chronological data splits to avoid data leakage.
+
+ML benchmarking with Logistic Regression, Random Forest, XGBoost.
+
+Interpretability via feature importance, DAGs, and counterfactual churn predictions.
+
+Built for experimentation, transparency, and scalable extension into production-grade churn modelling.
+
+
 
 ---
 
